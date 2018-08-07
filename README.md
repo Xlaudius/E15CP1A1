@@ -21,17 +21,17 @@ Si obtenemos un mensaje de command not found entonces debemos instalar la herram
 
 En **OSX**:
 
-~~~
+
 brew update
 brew install imagemagick
-~~~
+8
 
 EN **Ubuntu**: 
 
-~~~
+~~
 sudo apt-get update
 sudo apt-get install imagemagick
-~~~
+~~
 
 Más información en <a href="https://github.com/carrierwaveuploader/carrierwave/tree/v1.1.0">Documentación carrierwave</a>
 
@@ -43,10 +43,10 @@ Pictory es una aplicación para que diversos usuarios guarden sus historias y pu
 
 - Generar la ruta para la creación y la vista de new de un usuario.
 
-    ~~~ruby
+    ~~ruby
    get 'users/sign_up', to: "users#new"
   	post 'users', to: "users#create"
-    ~~~
+    ~~
 
 - En la terminal ejecutar **rails routes** para corroborar las ruta creada. La ruta generada debe apuntar a los métodos **users#new** y **users#create**.
 
